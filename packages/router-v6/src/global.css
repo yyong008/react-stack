@@ -1,0 +1,23 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.page {
+    padding: 20px 20%;
+    min-height: 100vh;
+}
+
+/* dark mode style */
+.body-dark {
+  color: #999;
+  background-color: #222;
+  transition: all 0.2s;
+}
+
+/* light mode style */
+.body-light {
+  color: #333;
+  background-color: #ddd;
+  transition: all 0.2s;
+}
