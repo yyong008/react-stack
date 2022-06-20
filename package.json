@@ -1,0 +1,37 @@
+{
+  "name": "@mg/react-stack",
+  "version": "1.0.0",
+  "description": "a react stack can learn react",
+  "private": true,
+  "scripts": {
+    "format": "prettier --write ./packages/**/*.{ts,js,jsx,less,md,json}"
+  },
+  "keywords": [
+    "react",
+    "react 18",
+    "express",
+    "workspace",
+    "vite",
+    "pnpm"
+  ],
+  "author": "mg",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "lint-staged": "^12.5.0",
+    "prettier": "^2.7.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,less,md,json}": [
+      "prettier --write"
+    ],
+    "*.ts?(x)": [
+      "prettier --parser=typescript --write"
+    ]
+  }
+}

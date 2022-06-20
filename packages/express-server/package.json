@@ -1,0 +1,28 @@
+{
+  "name": "express-server",
+  "version": "0.0.1",
+  "description": "a express server",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "keywords": [
+    "express",
+    "nodemon",
+    "esno",
+    "server",
+    "interface"
+  ],
+  "author": "mg",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^18.0.0",
+    "esno": "^0.16.3",
+    "nodemon": "^2.0.16",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

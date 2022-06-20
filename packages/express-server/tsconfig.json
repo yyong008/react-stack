@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "outDir": "dist",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "sourceMap": true,
+    "baseUrl": "./",
+    "strict": true,
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "typeRoots": ["./src/typings", "./node_modules/@types"],
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
