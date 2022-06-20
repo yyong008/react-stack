@@ -16,6 +16,11 @@
 
 - express-server 提供 express 接口服务
 
+## packages: router-v6
+
+- 使用 react-router-dom 管理 react-router
+- 一个简单的 暗黑模式
+
 ### packages: toolkit-simple
 
 - 从 redux 迁移到 toolkit, 这是一个简单版本
